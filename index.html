@@ -1,97 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pause PUSD Tree Removals</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Update on the PUSD Tree Campaign</title>
+
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 30px;
-      background: #f5f5f0;
-      color: #1f2a1f;
+      padding: 0;
+      background: #f5f5f2;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #222;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: white;
+      min-height: 100vh;
+      padding: 80px 40px;
+      box-sizing: border-box;
       text-align: center;
     }
-    .container {
-      max-width: 650px;
-      margin: auto;
-      background: white;
-      padding: 30px;
-      border-radius: 14px;
-      box-shadow: 0 4px 16px rgba(0,0,0,0.12);
-    }
+
     h1 {
-      color: #234d20;
+      color: #1f5d22;
+      font-size: 64px;
+      line-height: 1.1;
+      margin-bottom: 60px;
+      font-weight: 700;
     }
+
     p {
-      font-size: 18px;
-      line-height: 1.5;
+      font-size: 28px;
+      line-height: 1.7;
+      margin-bottom: 40px;
     }
-    a.button {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 16px 24px;
-      background: #2f6b2f;
-      color: white;
-      text-decoration: none;
-      font-size: 20px;
-      border-radius: 8px;
-      font-weight: bold;
+
+    .thank-you {
+      margin-top: 50px;
+      font-weight: 600;
     }
-    a.button:hover {
-      background: #245524;
-    }
-    .small {
-      margin-top: 25px;
-      font-size: 14px;
-      color: #555;
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 50px 25px;
+      }
+
+      h1 {
+        font-size: 46px;
+      }
+
+      p {
+        font-size: 22px;
+      }
     }
   </style>
-  <script>
-    window.onload = function() {
-      const to = "Fredericks.tina@pusd.us,Velazquezvargas.yarm@pusd.us,Marshallmckenzie.pat@pusd.us,Kenne.kimberly@pusd.us,halllee.jennifer@pusd.us,Bailey.michelle@pusd.us,Harden.scott@pusd.us";
-
-      const subject = "Request to Immediately Pause PUSD Tree Removals";
-
-      const body = `Dear Pasadena Unified School District Board Members,
-
-I am writing to demand that you immediately pause the removal of trees from PUSD campuses as part of your soil remediation project. I do not support the removal of these trees. The approach by Superintendent Blanco and Mr. Dunning should be more closely examined prior to execution. There have been many soil remediation projects due to the Eaton Fire, none of which have required tree removal. To the contrary, tree roots help sequester contaminants, aiding in soil remediation. Additionally, these mature trees, some of which are over 100 years old, provide invaluable shade, air quality, and water quality benefits. It will take decades of growth and maintenance to recreate the benefits that these trees already provide.
-
-Our trees are an asset to the District, and I would like to see them preserved and protected.
-
-Sincerely,
-[Name]
-[ZIP Code]`;
-
-      const mailtoLink =
-        "mailto:" + to +
-        "?subject=" + encodeURIComponent(subject) +
-        "&body=" + encodeURIComponent(body);
-
-      document.getElementById("emailButton").href = mailtoLink;
-    };
-  </script>
 </head>
+
 <body>
   <div class="container">
-    <h1>Help Protect PUSD Trees</h1>
+
+    <h1>Update on the<br>PUSD Tree Campaign</h1>
 
     <p>
-      Pasadena Unified School District is removing trees from campuses as part of its soil remediation project.
+      Thank you for your attention and care regarding the effort to save the PUSD trees.
     </p>
 
     <p>
-      Please take a moment to ask the PUSD Board to immediately pause tree removals and consider alternatives that preserve these valuable community assets.
+      We are pausing our email campaign while we pursue legal action to protect the trees.
     </p>
 
-    <a id="emailButton" class="button" href="#">
-      Send Email Now
-    </a>
-
-    <p class="small">
-      Your email application should open automatically. If it does not, click the button above.
+    <p>
+      We had hoped the PUSD School Board would make a clear, science-based decision that complies with the Pasadena City Tree Protection Ordinance. Because that did not occur, our efforts are now focused on seeking immediate legal protection for the trees.
     </p>
+
+    <p class="thank-you">
+      Please stay tuned for updates, and thank you again for your support.
+    </p>
+
   </div>
 </body>
 </html>
